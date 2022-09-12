@@ -18,7 +18,7 @@ nav {
     top: 0;
     right: 0;
     left: 0;
-    transition: transform 0.4s 0.2s linear;
+    transition: transform 0.3s 0.2s linear;
 }
 
 .down nav {
