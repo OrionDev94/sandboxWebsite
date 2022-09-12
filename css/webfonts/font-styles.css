@@ -1,0 +1,141 @@
+/*
+- - - > |  @font-face  | < - - - 
+*/
+/* Klavika Web Light Cond */
+	@font-face {
+	font-family: 'KlavikaWebCondensed';
+	src: url('KlavikaWebLightCond/KlavikaWebLightCond.eot');
+	src: url('KlavikaWebLightCond/KlavikaWebLightCond.eot?#iefix') format('embedded-opentype'),
+         url('KlavikaWebLightCond/KlavikaWebLightCond.woff2') format('woff2'),
+         url('KlavikaWebLightCond/KlavikaWebLightCond.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	}
+
+/* Klavika Web Light Cond Italic */
+	@font-face {
+	font-family: 'KlavikaWebCondensed';
+	src: url('KlavikaWebLightCondItalic/KlavikaWebLightCondItalic.eot');
+	src: url('KlavikaWebLightCondItalic/KlavikaWebLightCondItalic.eot?#iefix') format('embedded-opentype'),
+         url('KlavikaWebLightCondItalic/KlavikaWebLightCondItalic.woff2') format('woff2'),
+         url('KlavikaWebLightCondItalic/KlavikaWebLightCondItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	}
+
+/* Klavika Web Regular Cond */
+	@font-face {
+	font-family: 'KlavikaWebCondensed';
+	src: url('KlavikaWebRegularCond/KlavikaWebRegularCond.eot');
+	src: url('KlavikaWebRegularCond/KlavikaWebRegularCond.eot?#iefix') format('embedded-opentype'),
+         url('KlavikaWebRegularCond/KlavikaWebRegularCond.woff2') format('woff2'),
+         url('KlavikaWebRegularCond/KlavikaWebRegularCond.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	}
+
+/* Klavika Web Regular Cond Italic */
+	@font-face {
+	font-family: 'KlavikaWebCondensed';
+	src: url('KlavikaWebRegularCondItalic/KlavikaWebRegularCondItalic.eot');
+	src: url('KlavikaWebRegularCondItalic/KlavikaWebRegularCondItalic.eot?#iefix') format('embedded-opentype'),
+         url('KlavikaWebRegularCondItalic/KlavikaWebRegularCondItalic.woff2') format('woff2'),
+         url('KlavikaWebRegularCondItalic/KlavikaWebRegularCondItalic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	}
+
+/* Klavika Web Medium Cond */
+	@font-face {
+	font-family: 'KlavikaWebCondensed';
+	src: url('KlavikaWebMediumCond/KlavikaWebMediumCond.eot');
+	src: url('KlavikaWebMediumCond/KlavikaWebMediumCond.eot?#iefix') format('embedded-opentype'),
+         url('KlavikaWebMediumCond/KlavikaWebMediumCond.woff2') format('woff2'),
+         url('KlavikaWebMediumCond/KlavikaWebMediumCond.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	}
+
+/* Klavika Web Medium Cond Italic */
+	@font-face {
+	font-family: 'KlavikaWebCondensed';
+	src: url('KlavikaWebMediumCondItalic/KlavikaWebMediumCondItalic.eot');
+	src: url('KlavikaWebMediumCondItalic/KlavikaWebMediumCondItalic.eot?#iefix') format('embedded-opentype'),
+         url('KlavikaWebMediumCondItalic/KlavikaWebMediumCondItalic.woff2') format('woff2'),
+         url('KlavikaWebMediumCondItalic/KlavikaWebMediumCondItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	}
+
+/* Klavika Web Bold Cond */
+	@font-face {
+	font-family: 'KlavikaWebCondensed';
+	src: url('KlavikaWebBoldCond/KlavikaWebBoldCond.eot');
+	src: url('KlavikaWebBoldCond/KlavikaWebBoldCond.eot?#iefix') format('embedded-opentype'),
+         url('KlavikaWebBoldCond/KlavikaWebBoldCond.woff2') format('woff2'),
+         url('KlavikaWebBoldCond/KlavikaWebBoldCond.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	}
+
+/* Klavika Web Bold Cond Italic */
+	@font-face {
+	font-family: 'KlavikaWebCondensed';
+	src: url('KlavikaWebBoldCondItalic/KlavikaWebBoldCondItalic.eot');
+	src: url('KlavikaWebBoldCondItalic/KlavikaWebBoldCondItalic.eot?#iefix') format('embedded-opentype'),
+         url('KlavikaWebBoldCondItalic/KlavikaWebBoldCondItalic.woff2') format('woff2'),
+         url('KlavikaWebBoldCondItalic/KlavikaWebBoldCondItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+	}
+
+/*
+- - - > |  Font Classes  | < - - - 
+*/
+.KlavikaWebLightCond {
+	font-family: 'KlavikaWebCondensed';
+	font-weight: 300;
+	font-style: normal;
+	}
+
+.KlavikaWebLightCondItalic {
+	font-family: 'KlavikaWebCondensed';
+	font-weight: 300;
+	font-style: italic;
+	}
+
+.KlavikaWebRegularCond {
+	font-family: 'KlavikaWebCondensed';
+	font-weight: 400;
+	font-style: normal;
+	}
+
+.KlavikaWebRegularCondItalic {
+	font-family: 'KlavikaWebCondensed';
+	font-weight: 400;
+	font-style: italic;
+	}
+
+.KlavikaWebMediumCond {
+	font-family: 'KlavikaWebCondensed';
+	font-weight: 500;
+	font-style: normal;
+	}
+
+.KlavikaWebMediumCondItalic {
+	font-family: 'KlavikaWebCondensed';
+	font-weight: 500;
+	font-style: italic;
+	}
+
+.KlavikaWebBoldCond {
+	font-family: 'KlavikaWebCondensed';
+	font-weight: 700;
+	font-style: normal;
+	}
+
+.KlavikaWebBoldCondItalic {
+	font-family: 'KlavikaWebCondensed';
+	font-weight: 700;
+	font-style: italic;
+	}

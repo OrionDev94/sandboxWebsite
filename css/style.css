@@ -1,0 +1,166 @@
+#introductionBox,
+#counterBox,
+#clockBox,
+#lettersCounter {
+    min-height: 100vh;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: "Anek Devanagari", sans-serif;
+    font-family: "Righteous", cursive;
+    font-size: 30px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: transform 0.3s 0.2s linear;
+}
+
+.down nav {
+    transform: translate3d(0, -100px, 0); /* um 100px nach oben verschieben */
+}
+
+body {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 16px;
+}
+
+#introductionBox {
+    left: 100px;
+    top: 200px;
+    overflow: hidden;
+}
+
+#imageJs {
+    /* z-index ist für e */
+    z-index: 4;
+    height: 40vmin;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.introText {
+    font-size: 5vh;
+    z-index: 3;
+    position: relative;
+}
+
+.counterNumber {
+    /* font-family: "Righteous", cursive; */
+    font-size: 80px;
+}
+
+.my-button-group {
+    padding: 0 20%;
+}
+
+#clockBox {
+    border: 5px #95b7f71a;
+    border-radius: 50%;
+    background-color: #95b7f71a;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.clockNumbers {
+    font-family: "Azeret Mono", cursive;
+    font-size: 3rem;
+}
+
+#lettersCounter {
+    font-size: 25px;
+    border-radius: 500px, 200px;
+    position: relative;
+}
+
+#outputField {
+    background-color: #95b7f733;
+    color: rgb(2, 2, 2);
+    margin-top: 20px;
+    /* border: 5px solid #95b7f777; */
+    border-radius: 0px;
+    width: 200px;
+    height: 700px;
+
+}
+
+.letters {
+    font-size: 20px;
+}
+
+@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55);
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+}
+
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    bottom: -1px;
+    background-image: linear-gradient(to top, #fcdd79 20%, #d15502 80%);
+}
+.bgTop {
+    z-index: 3;
+    opacity: 0.5;
+}
+.bgMiddle {
+    z-index: 2;
+    opacity: 0.75;
+}
+.bgBottom {
+    z-index: 1;
+}
+.wave {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 200%;
+    height: 10vh;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    background-size: auto 10vh;
+    transform-origin: center bottom;
+}
+
+.waveAnimation .waveTop {
+    animation: move-wave 3s;
+    -webkit-animation: move-wave 3s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+}
+
+.range-field input[type=range]+.thumb.active {
+    background: linear-gradient(135deg, #007e33, #ffbb33, #CC0000);
+}
