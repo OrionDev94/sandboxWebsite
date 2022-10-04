@@ -26,9 +26,9 @@
                 .then(function (data) {
                     // console.log(data.results);
                     data.results.forEach((element) => {
-                        const el = document.createElement("div");
+                        const el = document.createElement("figure");
                         const image = document.createElement("img");
-                        const text = document.createElement("h2");
+                        const text = document.createElement("figcaption");
 
                         text.innerHTML = `${element.title}`;
                         image.src = IMGPATH + element.poster_path;
@@ -45,9 +45,9 @@
                 .then(function (data) {
                     // console.log(data.results);
                     data.results.forEach((element) => {
-                        const el = document.createElement("div");
+                        const el = document.createElement("figure");
                         const image = document.createElement("img");
-                        const text = document.createElement("h2");
+                        const text = document.createElement("figcaption");
 
                         text.innerHTML = `${element.title}`;
                         image.src = IMGPATH + element.poster_path;
