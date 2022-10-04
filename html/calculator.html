@@ -15,7 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Righteous&family=Azeret+Mono:wght@100&display=swap"
         rel="stylesheet">
     <!-- <link rel="stylesheet" href="/css/calculator.css"> -->
-    <link rel="stylesheet" href="sandboxWebsite/css/style.css">
+    <link rel="stylesheet" href="/css/calculator.css">
     <title>Sandbox JS</title>
 
 </head>
@@ -56,25 +56,35 @@
             </ul>
         </div>
     </nav>
-    <div class="container-fluid">
-        <section id="introductionBox" class="row">
-            <div class="col-12 pt-5 d-flex flex-column align-content-center align-items-center">
-                <div class="waveWrapper waveAnimation">
-                    <div class="waveWrapperInner bgTop">
-                        <div class="wave waveTop"
-                            style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
-                    </div>
-                    <div class="waveWrapperInner bgMiddle">
-                        <div class="wave waveMiddle"
-                            style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
-                    </div>
-                    <div class="waveWrapperInner bgBottom">
-                        <div class="wave waveBottom"
-                            style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <body>
+        <divc class="container">
+          <div class="calculator">
+          <div id="outputField">
+          </div>
+          <div class="container input">
+            <button class="outerEdge" id="clear">AC</button>
+            <button class="outerEdge" id="change">+/-</button>
+            <button class="outerEdge operators" id="procent" value="%">%</button>
+            <button class="outerEdge fas fa-backspace" id="delete"></button>
+            <button class="numbers" id="seven" value="7">7</button>
+            <button class="numbers" id="eigth" value="8">8</button>
+            <button class="numbers" id="nine" value="9">9</button>
+            <button class="outerEdge operators" id="divide" value="/">/</button>
+            <button class="numbers" id="four" value="4">4</button>
+            <button class="numbers" id="five" value="5">5</button>
+            <button class="numbers" id="six" value="6">6</button>
+            <button class="outerEdge operators" id="multiplication" value="*">*</button>
+            <button class="numbers" id="one" value="1">1</button>
+            <button class="numbers" id="two" value="2">2</button>
+            <button class="numbers" id="three" value="3">3</button>
+            <button class="outerEdge operators" id="addition" value="+">+</button>
+            <button class="numbers" id="zero" value="0">0</button>
+            <button id="point">.</button>
+            <button id="equal">=</button>
+            <button class="outerEdge operators" id="subtraction" value="-">-</button>
+          </div>
+        </div>
+      </body>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
