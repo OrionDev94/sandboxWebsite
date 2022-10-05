@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/OrionDev94/sandboxWebsite#readme",
   "dependencies": {
+    "bootstrap": "^5.2.2",
     "node-sass": "^7.0.3"
   }
 }
